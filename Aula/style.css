@@ -34,6 +34,14 @@ footer {
     color: #777;
 }
 
+a{
+text-decoration: none;
+color: #492291;
+}
+a:hover{
+text-decoration: underline;
+
+}
 /* Formatação da Home */
 
 main {
@@ -168,4 +176,33 @@ section {
     a:nth-child(5) {
         background-color: #000;
     }
+}
+
+.voltar{
+text-align: center;
+margin-top: 20px;
+
+}
+.grid-clinia{
+display: flex;
+justify-content: space-between;
+gap: 1.5rem;
+div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+}
+img{
+width: 100%;
+}
+h2{
+text-align: start;
+margin-bottom: 15px;
+margin-top: 0;
+}
+p{
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+
 }
